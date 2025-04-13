@@ -1,0 +1,13 @@
+env: "local"
+
+database:
+  host: "localhost"
+  port: "5435"
+  user: "postgres"
+  dbname: "postgres"
+  max_attempts: 5
+
+servers:
+  grpc:
+    port: 3000
+    timeout: 60s
